@@ -160,7 +160,7 @@ const PopupButton = styled.button`
 const API_BASE = "https://pow.co";
 
 const SuperBoostPopup = ({ wallet, contentTxId, defaultTag, theme, defaultValue, onClose, onSending, onError, onSuccess }: superBoostPopupOptions) => {
-  const defaultPricePerDifficulty = 2.18
+  const defaultPricePerDifficulty = 0.218
   const [difficulty, setDifficulty] = useState(0.00025)
   const [tag, setTag] = useState(defaultTag || '')
   const [price, setPrice] = useState(defaultPricePerDifficulty * difficulty)
